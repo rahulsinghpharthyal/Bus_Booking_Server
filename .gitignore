@@ -1,4 +1,4 @@
 .env 
 .adminjs
 /node_modules
-/logs
+logs/
