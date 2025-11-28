@@ -1,0 +1,130 @@
+{"level":"info","message":"Database Connected localhost","timestamp":"2025-11-23 14:01:12"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2025-11-23 14:01:12"}
+{"level":"error","message":"GoogleService is not defined","timestamp":"2025-11-23 14:15:02"}
+{"level":"error","message":"GoogleService is not defined","timestamp":"2025-11-23 14:15:15"}
+{"level":"info","message":"Database Connected localhost","timestamp":"2025-11-23 14:18:01"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2025-11-23 14:18:01"}
+{"level":"info","message":"Database Connected localhost","timestamp":"2025-11-23 14:21:25"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2025-11-23 14:21:25"}
+{"level":"info","message":"Database Connected localhost","timestamp":"2025-11-23 14:21:45"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2025-11-23 14:21:45"}
+{"level":"info","message":"Database Connected localhost","timestamp":"2025-11-23 14:22:12"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2025-11-23 14:22:12"}
+{"level":"info","message":"Database Connected localhost","timestamp":"2025-11-23 14:26:18"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2025-11-23 14:26:18"}
+{"level":"info","message":"Database Connected localhost","timestamp":"2025-11-23 14:27:00"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2025-11-23 14:27:00"}
+{"aud":"743477028170-d123123up0q3bh4e8j6sbfo9dt6c163c.apps.googleusercontent.com","azp":"743477028170-994htbhf1coj9hd1om5odsb9u34stvf0.apps.googleusercontent.com","email":"rahulpharthyal@gmail.com","email_verified":true,"exp":1763890443,"family_name":"Pharthyal","given_name":"Rahul","iat":1763886843,"iss":"https://accounts.google.com","level":"info","message":"this is payload-->","name":"Rahul Pharthyal","picture":"https://lh3.googleusercontent.com/a/ACg8ocJprbbq8S_bjKNz8o9qMSWs6fWof1uduH-eAfyUgFVkqHiDGeFF=s96-c","sub":"111644057354792781996","timestamp":"2025-11-23 14:27:03"}
+{"level":"info","message":"Database Connected localhost","timestamp":"2025-11-23 14:33:31"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2025-11-23 14:33:31"}
+{"aud":"743477028170-d123123up0q3bh4e8j6sbfo9dt6c163c.apps.googleusercontent.com","azp":"743477028170-994htbhf1coj9hd1om5odsb9u34stvf0.apps.googleusercontent.com","email":"rahulpharthyal@gmail.com","email_verified":true,"exp":1763894127,"family_name":"Pharthyal","given_name":"Rahul","iat":1763890527,"iss":"https://accounts.google.com","level":"info","message":"this is payload-->","name":"Rahul Pharthyal","picture":"https://lh3.googleusercontent.com/a/ACg8ocJprbbq8S_bjKNz8o9qMSWs6fWof1uduH-eAfyUgFVkqHiDGeFF=s96-c","sub":"111644057354792781996","timestamp":"2025-11-23 15:05:27"}
+{"level":"info","message":"Database Connected localhost","timestamp":"2025-11-23 22:44:43"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2025-11-23 22:44:43"}
+{"level":"error","message":"Invalid or expired token","timestamp":"2025-11-23 22:45:06"}
+{"level":"error","message":"Invalid or expired token","timestamp":"2025-11-23 22:45:07"}
+{"level":"error","message":"Invalid or expired token","timestamp":"2025-11-23 22:45:13"}
+{"level":"error","message":"Invalid or expired token","timestamp":"2025-11-23 22:45:15"}
+{"aud":"743477028170-d123123up0q3bh4e8j6sbfo9dt6c163c.apps.googleusercontent.com","azp":"743477028170-994htbhf1coj9hd1om5odsb9u34stvf0.apps.googleusercontent.com","email":"rahulpharthyal@gmail.com","email_verified":true,"exp":1763921750,"family_name":"Pharthyal","given_name":"Rahul","iat":1763918150,"iss":"https://accounts.google.com","level":"info","message":"this is payload-->","name":"Rahul Pharthyal","picture":"https://lh3.googleusercontent.com/a/ACg8ocJprbbq8S_bjKNz8o9qMSWs6fWof1uduH-eAfyUgFVkqHiDGeFF=s96-c","sub":"111644057354792781996","timestamp":"2025-11-23 22:45:50"}
+{"level":"error","message":"Invalid or expired token","timestamp":"2025-11-23 22:45:51"}
+{"level":"error","message":"Invalid or expired token","timestamp":"2025-11-23 22:45:52"}
+{"level":"info","message":"Database Connected localhost","timestamp":"2025-11-23 22:49:34"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2025-11-23 22:49:34"}
+{"level":"info","message":"Database Connected localhost","timestamp":"2025-11-23 22:49:51"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2025-11-23 22:49:51"}
+{"aud":"743477028170-d123123up0q3bh4e8j6sbfo9dt6c163c.apps.googleusercontent.com","azp":"743477028170-994htbhf1coj9hd1om5odsb9u34stvf0.apps.googleusercontent.com","email":"rahulpharthyal@gmail.com","email_verified":true,"exp":1763921750,"family_name":"Pharthyal","given_name":"Rahul","iat":1763918150,"iss":"https://accounts.google.com","level":"info","message":"this is payload-->","name":"Rahul Pharthyal","picture":"https://lh3.googleusercontent.com/a/ACg8ocJprbbq8S_bjKNz8o9qMSWs6fWof1uduH-eAfyUgFVkqHiDGeFF=s96-c","sub":"111644057354792781996","timestamp":"2025-11-23 22:49:52"}
+{"level":"error","message":"Invalid or expired token","timestamp":"2025-11-23 22:49:52"}
+{"level":"error","message":"Invalid or expired token","timestamp":"2025-11-23 22:49:53"}
+{"level":"info","message":"Database Connected localhost","timestamp":"2025-11-23 22:50:36"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2025-11-23 22:50:36"}
+{"level":"error","message":"Invalid or expired token","timestamp":"2025-11-23 22:50:36"}
+{"level":"error","message":"Invalid or expired token","timestamp":"2025-11-23 22:50:37"}
+{"level":"error","message":"Invalid or expired token","timestamp":"2025-11-23 22:50:45"}
+{"level":"error","message":"Invalid or expired token","timestamp":"2025-11-23 22:50:46"}
+{"level":"info","message":"Database Connected localhost","timestamp":"2025-11-23 22:50:59"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2025-11-23 22:50:59"}
+{"level":"info","message":"Database Connected localhost","timestamp":"2025-11-23 22:52:39"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2025-11-23 22:52:39"}
+{"aud":"743477028170-d123123up0q3bh4e8j6sbfo9dt6c163c.apps.googleusercontent.com","azp":"743477028170-994htbhf1coj9hd1om5odsb9u34stvf0.apps.googleusercontent.com","email":"rahulpharthyal@gmail.com","email_verified":true,"exp":1763921750,"family_name":"Pharthyal","given_name":"Rahul","iat":1763918150,"iss":"https://accounts.google.com","level":"info","message":"this is payload-->","name":"Rahul Pharthyal","picture":"https://lh3.googleusercontent.com/a/ACg8ocJprbbq8S_bjKNz8o9qMSWs6fWof1uduH-eAfyUgFVkqHiDGeFF=s96-c","sub":"111644057354792781996","timestamp":"2025-11-23 22:52:40"}
+{"level":"error","message":"Invalid or expired token","timestamp":"2025-11-23 22:52:40"}
+{"level":"error","message":"Invalid or expired token","timestamp":"2025-11-23 22:52:41"}
+{"aud":"743477028170-d123123up0q3bh4e8j6sbfo9dt6c163c.apps.googleusercontent.com","azp":"743477028170-994htbhf1coj9hd1om5odsb9u34stvf0.apps.googleusercontent.com","email":"rahulpharthyal@gmail.com","email_verified":true,"exp":1763921750,"family_name":"Pharthyal","given_name":"Rahul","iat":1763918150,"iss":"https://accounts.google.com","level":"info","message":"this is payload-->","name":"Rahul Pharthyal","picture":"https://lh3.googleusercontent.com/a/ACg8ocJprbbq8S_bjKNz8o9qMSWs6fWof1uduH-eAfyUgFVkqHiDGeFF=s96-c","sub":"111644057354792781996","timestamp":"2025-11-23 22:53:27"}
+{"level":"error","message":"Invalid or expired token","timestamp":"2025-11-23 22:53:27"}
+{"level":"error","message":"Invalid or expired token","timestamp":"2025-11-23 22:53:29"}
+{"level":"info","message":"Database Connected localhost","timestamp":"2025-11-23 22:53:57"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2025-11-23 22:53:57"}
+{"level":"error","message":"Invalid or expired token","timestamp":"2025-11-23 22:53:57"}
+{"level":"error","message":"The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received an instance of Object","timestamp":"2025-11-23 22:53:57"}
+{"level":"error","message":"Invalid or expired token","timestamp":"2025-11-23 22:53:58"}
+{"level":"error","message":"The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received an instance of Object","timestamp":"2025-11-23 22:53:58"}
+{"level":"info","message":"Database Connected localhost","timestamp":"2025-11-23 22:54:25"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2025-11-23 22:54:25"}
+{"aud":"743477028170-d123123up0q3bh4e8j6sbfo9dt6c163c.apps.googleusercontent.com","azp":"743477028170-994htbhf1coj9hd1om5odsb9u34stvf0.apps.googleusercontent.com","email":"rahulpharthyal@gmail.com","email_verified":true,"exp":1763921750,"family_name":"Pharthyal","given_name":"Rahul","iat":1763918150,"iss":"https://accounts.google.com","level":"info","message":"this is payload-->","name":"Rahul Pharthyal","picture":"https://lh3.googleusercontent.com/a/ACg8ocJprbbq8S_bjKNz8o9qMSWs6fWof1uduH-eAfyUgFVkqHiDGeFF=s96-c","sub":"111644057354792781996","timestamp":"2025-11-23 22:54:37"}
+{"level":"error","message":"Invalid or expired token","timestamp":"2025-11-23 22:54:37"}
+{"level":"error","message":"Invalid or expired token","timestamp":"2025-11-23 22:54:38"}
+{"level":"info","message":"Database Connected localhost","timestamp":"2025-11-23 22:57:04"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2025-11-23 22:57:04"}
+{"level":"error","message":"Invalid or expired token","timestamp":"2025-11-23 22:57:13"}
+{"level":"error","message":"Invalid or expired token","timestamp":"2025-11-23 22:57:14"}
+{"level":"info","message":"Database Connected localhost","timestamp":"2025-11-23 22:57:30"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2025-11-23 22:57:30"}
+{"level":"error","message":"Unauthorized access","timestamp":"2025-11-23 22:57:31"}
+{"level":"error","message":"Unauthorized access","timestamp":"2025-11-23 22:57:32"}
+{"level":"error","message":"Unauthorized access","timestamp":"2025-11-23 22:57:40"}
+{"level":"error","message":"Unauthorized access","timestamp":"2025-11-23 22:57:41"}
+{"aud":"743477028170-d123123up0q3bh4e8j6sbfo9dt6c163c.apps.googleusercontent.com","azp":"743477028170-994htbhf1coj9hd1om5odsb9u34stvf0.apps.googleusercontent.com","email":"rahulpharthyal@gmail.com","email_verified":true,"exp":1763921750,"family_name":"Pharthyal","given_name":"Rahul","iat":1763918150,"iss":"https://accounts.google.com","level":"info","message":"this is payload-->","name":"Rahul Pharthyal","picture":"https://lh3.googleusercontent.com/a/ACg8ocJprbbq8S_bjKNz8o9qMSWs6fWof1uduH-eAfyUgFVkqHiDGeFF=s96-c","sub":"111644057354792781996","timestamp":"2025-11-23 22:58:43"}
+{"level":"error","message":"Unauthorized access","timestamp":"2025-11-23 22:58:43"}
+{"level":"error","message":"Unauthorized access","timestamp":"2025-11-23 22:58:44"}
+{"level":"info","message":"Database Connected localhost","timestamp":"2025-11-23 23:00:26"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2025-11-23 23:00:26"}
+{"aud":"743477028170-d123123up0q3bh4e8j6sbfo9dt6c163c.apps.googleusercontent.com","azp":"743477028170-994htbhf1coj9hd1om5odsb9u34stvf0.apps.googleusercontent.com","email":"rahulpharthyal@gmail.com","email_verified":true,"exp":1763921750,"family_name":"Pharthyal","given_name":"Rahul","iat":1763918150,"iss":"https://accounts.google.com","level":"info","message":"this is payload-->","name":"Rahul Pharthyal","picture":"https://lh3.googleusercontent.com/a/ACg8ocJprbbq8S_bjKNz8o9qMSWs6fWof1uduH-eAfyUgFVkqHiDGeFF=s96-c","sub":"111644057354792781996","timestamp":"2025-11-23 23:01:01"}
+{"level":"error","message":"Unauthorized access","timestamp":"2025-11-23 23:01:01"}
+{"level":"error","message":"Unauthorized access","timestamp":"2025-11-23 23:01:02"}
+{"level":"error","message":"Unauthorized access","timestamp":"2025-11-23 23:02:09"}
+{"level":"error","message":"Unauthorized access","timestamp":"2025-11-23 23:02:10"}
+{"aud":"743477028170-d123123up0q3bh4e8j6sbfo9dt6c163c.apps.googleusercontent.com","azp":"743477028170-994htbhf1coj9hd1om5odsb9u34stvf0.apps.googleusercontent.com","email":"rahulpharthyal@gmail.com","email_verified":true,"exp":1763921750,"family_name":"Pharthyal","given_name":"Rahul","iat":1763918150,"iss":"https://accounts.google.com","level":"info","message":"this is payload-->","name":"Rahul Pharthyal","picture":"https://lh3.googleusercontent.com/a/ACg8ocJprbbq8S_bjKNz8o9qMSWs6fWof1uduH-eAfyUgFVkqHiDGeFF=s96-c","sub":"111644057354792781996","timestamp":"2025-11-23 23:02:14"}
+{"level":"error","message":"Unauthorized access","timestamp":"2025-11-23 23:02:14"}
+{"level":"error","message":"Unauthorized access","timestamp":"2025-11-23 23:02:15"}
+{"level":"error","message":"Unauthorized access","timestamp":"2025-11-23 23:08:42"}
+{"level":"error","message":"Unauthorized access","timestamp":"2025-11-23 23:08:43"}
+{"aud":"743477028170-d123123up0q3bh4e8j6sbfo9dt6c163c.apps.googleusercontent.com","azp":"743477028170-994htbhf1coj9hd1om5odsb9u34stvf0.apps.googleusercontent.com","email":"rahulpharthyal@gmail.com","email_verified":true,"exp":1763921750,"family_name":"Pharthyal","given_name":"Rahul","iat":1763918150,"iss":"https://accounts.google.com","level":"info","message":"this is payload-->","name":"Rahul Pharthyal","picture":"https://lh3.googleusercontent.com/a/ACg8ocJprbbq8S_bjKNz8o9qMSWs6fWof1uduH-eAfyUgFVkqHiDGeFF=s96-c","sub":"111644057354792781996","timestamp":"2025-11-23 23:08:47"}
+{"level":"error","message":"Unauthorized access","timestamp":"2025-11-23 23:08:47"}
+{"level":"error","message":"Unauthorized access","timestamp":"2025-11-23 23:08:48"}
+{"level":"info","message":"Database Connected localhost","timestamp":"2025-11-23 23:09:15"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2025-11-23 23:09:15"}
+{"aud":"743477028170-d123123up0q3bh4e8j6sbfo9dt6c163c.apps.googleusercontent.com","azp":"743477028170-994htbhf1coj9hd1om5odsb9u34stvf0.apps.googleusercontent.com","email":"rahulpharthyal@gmail.com","email_verified":true,"exp":1763921750,"family_name":"Pharthyal","given_name":"Rahul","iat":1763918150,"iss":"https://accounts.google.com","level":"info","message":"this is payload-->","name":"Rahul Pharthyal","picture":"https://lh3.googleusercontent.com/a/ACg8ocJprbbq8S_bjKNz8o9qMSWs6fWof1uduH-eAfyUgFVkqHiDGeFF=s96-c","sub":"111644057354792781996","timestamp":"2025-11-23 23:09:16"}
+{"level":"error","message":"Invalid or expired token","timestamp":"2025-11-23 23:09:16"}
+{"level":"error","message":"Invalid or expired token","timestamp":"2025-11-23 23:09:17"}
+{"level":"error","message":"Invalid or expired token","timestamp":"2025-11-23 23:10:44"}
+{"level":"error","message":"Invalid or expired token","timestamp":"2025-11-23 23:10:45"}
+{"level":"error","message":"Invalid or expired token","timestamp":"2025-11-23 23:10:48"}
+{"level":"error","message":"Invalid or expired token","timestamp":"2025-11-23 23:10:49"}
+{"level":"error","message":"Invalid or expired token","timestamp":"2025-11-23 23:10:52"}
+{"level":"error","message":"Invalid or expired token","timestamp":"2025-11-23 23:10:53"}
+{"level":"error","message":"Invalid or expired token","timestamp":"2025-11-23 23:10:59"}
+{"level":"error","message":"Invalid or expired token","timestamp":"2025-11-23 23:11:00"}
+{"aud":"743477028170-d123123up0q3bh4e8j6sbfo9dt6c163c.apps.googleusercontent.com","azp":"743477028170-994htbhf1coj9hd1om5odsb9u34stvf0.apps.googleusercontent.com","email":"rahulpharthyal@gmail.com","email_verified":true,"exp":1763921750,"family_name":"Pharthyal","given_name":"Rahul","iat":1763918150,"iss":"https://accounts.google.com","level":"info","message":"this is payload-->","name":"Rahul Pharthyal","picture":"https://lh3.googleusercontent.com/a/ACg8ocJprbbq8S_bjKNz8o9qMSWs6fWof1uduH-eAfyUgFVkqHiDGeFF=s96-c","sub":"111644057354792781996","timestamp":"2025-11-23 23:11:10"}
+{"level":"error","message":"Invalid or expired token","timestamp":"2025-11-23 23:11:10"}
+{"level":"error","message":"Invalid or expired token","timestamp":"2025-11-23 23:11:11"}
+{"aud":"743477028170-d123123up0q3bh4e8j6sbfo9dt6c163c.apps.googleusercontent.com","azp":"743477028170-994htbhf1coj9hd1om5odsb9u34stvf0.apps.googleusercontent.com","email":"rahulpharthyal@gmail.com","email_verified":true,"exp":1763921750,"family_name":"Pharthyal","given_name":"Rahul","iat":1763918150,"iss":"https://accounts.google.com","level":"info","message":"this is payload-->","name":"Rahul Pharthyal","picture":"https://lh3.googleusercontent.com/a/ACg8ocJprbbq8S_bjKNz8o9qMSWs6fWof1uduH-eAfyUgFVkqHiDGeFF=s96-c","sub":"111644057354792781996","timestamp":"2025-11-23 23:12:42"}
+{"level":"error","message":"Invalid or expired token","timestamp":"2025-11-23 23:12:42"}
+{"level":"error","message":"Invalid or expired token","timestamp":"2025-11-23 23:12:43"}
+{"aud":"743477028170-d123123up0q3bh4e8j6sbfo9dt6c163c.apps.googleusercontent.com","azp":"743477028170-994htbhf1coj9hd1om5odsb9u34stvf0.apps.googleusercontent.com","email":"rahulpharthyal@gmail.com","email_verified":true,"exp":1763921750,"family_name":"Pharthyal","given_name":"Rahul","iat":1763918150,"iss":"https://accounts.google.com","level":"info","message":"this is payload-->","name":"Rahul Pharthyal","picture":"https://lh3.googleusercontent.com/a/ACg8ocJprbbq8S_bjKNz8o9qMSWs6fWof1uduH-eAfyUgFVkqHiDGeFF=s96-c","sub":"111644057354792781996","timestamp":"2025-11-23 23:14:06"}
+{"level":"error","message":"Invalid or expired token","timestamp":"2025-11-23 23:14:06"}
+{"level":"error","message":"Invalid or expired token","timestamp":"2025-11-23 23:14:08"}
+{"aud":"743477028170-d123123up0q3bh4e8j6sbfo9dt6c163c.apps.googleusercontent.com","azp":"743477028170-994htbhf1coj9hd1om5odsb9u34stvf0.apps.googleusercontent.com","email":"rahulpharthyal@gmail.com","email_verified":true,"exp":1763921750,"family_name":"Pharthyal","given_name":"Rahul","iat":1763918150,"iss":"https://accounts.google.com","level":"info","message":"this is payload-->","name":"Rahul Pharthyal","picture":"https://lh3.googleusercontent.com/a/ACg8ocJprbbq8S_bjKNz8o9qMSWs6fWof1uduH-eAfyUgFVkqHiDGeFF=s96-c","sub":"111644057354792781996","timestamp":"2025-11-23 23:14:25"}
+{"level":"error","message":"Invalid or expired token","timestamp":"2025-11-23 23:14:25"}
+{"level":"error","message":"Invalid or expired token","timestamp":"2025-11-23 23:14:26"}
+{"level":"info","message":"Database Connected localhost","timestamp":"2025-11-23 23:15:48"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2025-11-23 23:15:48"}
+{"level":"info","message":"Database Connected localhost","timestamp":"2025-11-23 23:16:11"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2025-11-23 23:16:11"}
+{"level":"error","message":"Invalid or expired token","timestamp":"2025-11-23 23:16:13"}
+{"level":"error","message":"Invalid or expired token","timestamp":"2025-11-23 23:16:14"}
+{"level":"error","message":"Invalid or expired token","timestamp":"2025-11-23 23:17:11"}
+{"level":"error","message":"Invalid or expired token","timestamp":"2025-11-23 23:17:12"}
+{"level":"error","message":"Invalid or expired token","timestamp":"2025-11-23 23:17:29"}
+{"level":"error","message":"Invalid or expired token","timestamp":"2025-11-23 23:17:30"}
+{"level":"error","message":"Invalid or expired token","timestamp":"2025-11-23 23:17:41"}
+{"level":"error","message":"Invalid or expired token","timestamp":"2025-11-23 23:17:42"}
+{"level":"info","message":"Database Connected localhost","timestamp":"2025-11-23 23:20:56"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2025-11-23 23:20:56"}

@@ -1,0 +1,87 @@
+import mongoose, { Schema } from 'mongoose';
+
+// Seat Schema
+const seatSchema = new Schema({
+  seat_id: {
+    type: Number,
+    required: true,
+  },
+  type: {
+    type: String,
+    enum: ["window", "side", "path"],
+    required: true,
+  },
+  booked: {
+    type: Boolean,
+    default: false,
+  }
+});
+
+// Bus Schema
+const busSchema = new Schema(
+  {
+    bus_id: {
+      type: String,
+      required: true,
+      trim: true,
+    },
+    from: {
+      type: String,
+      required: true,
+      trim: true,
+    },
+    to: {
+      type: String,
+      required: true,
+      trim: true,
+    },
+    departureTime: {
+      type: Date,
+      required: true,
+    },
+    arrivalTime: {
+      type: Date,
+      required: true,
+    },
+    duration: {
+      type: String,
+      required: true,
+    },
+    availableSeats: {
+      type: Number,
+      required: true,
+    },
+    price: {
+      type: Number,
+      required: true,
+    },
+    originalPrice: {
+      type: Number,
+      required: true,
+    },
+    company: {
+      type: String,
+      required: true,
+    },
+    busType: {
+      type: String,
+      required: true,
+    },
+    rating: {
+      type: Number,
+      default: 0,
+    },
+    totalReviews: {
+      type: Number,
+      default: 0,
+    },
+    badges: [
+      { type: String }
+    ],
+    seats: [[seatSchema]], // 👈 recommended (1D array)
+  },
+  { timestamps: true }
+);
+
+const Bus = mongoose.model("Bus", busSchema);
+export default Bus;
