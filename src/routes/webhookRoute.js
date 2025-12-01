@@ -1,7 +1,7 @@
 // routes/webhookRoutes.js
 
 import express from "express";
-import { handleRazorpayWebhook } from "../controllers/webHookController.js";
+import { handleRazorpayWebhook } from "../controllers/webhookController.js";
 
 const router = express.Router();
 

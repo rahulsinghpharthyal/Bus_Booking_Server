@@ -4,8 +4,6 @@ import ApiError from "../utils/ApiError.js";
 import { getIO } from "../utils/socket.js";
 import { verifyWebhookSignature } from "../utils/token.js";
 
-// import * as webhookService from "../services/webhookService.js";
-
 export const handleRazorpayWebhook = asyncHandler(async (req, res) => {
   const rawBody = req.body; // RAW BODY ONLY (Buffer)
   const signature = req.headers["x-razorpay-signature"];
