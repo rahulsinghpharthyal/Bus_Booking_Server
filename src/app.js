@@ -6,6 +6,7 @@ import { errorHandler } from "./middlewares/errorHandler.js";
 import userRoutes from './routes/userRoute.js';
 import busRoutes from './routes/busRoute.js';
 import ticketRoutes from './routes/ticketRoute.js';
+import paymentRoutes from './routes/paymentRoute.js';
 import { buildAdminJS } from "./config/setupAdmin.js";
 
 
@@ -32,6 +33,7 @@ app.use(express.json());
 app.use("/api/v1/user", userRoutes);
 app.use("/api/v1/bus", busRoutes);
 app.use("/api/v1/ticket", ticketRoutes);
+app.use("/api/v1/payment", paymentRoutes);
 
 
 // <--- global error handler middleware --->

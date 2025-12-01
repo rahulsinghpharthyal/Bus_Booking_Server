@@ -3,7 +3,6 @@ import crypto from 'crypto';
 
 // Access token - short life
 export const generateAccessToken = (userId) => {
-  console.log('this is useId', userId)
   const accessToken = jwt.sign(
     {userId: userId },
     process.env.ACCESS_TOKEN_SECRET,
@@ -26,3 +25,14 @@ export const generateRefreshToken = (userId) => {
 export const hashToken = (token) => {
   return crypto.createHash("sha256").update(token).digest("hex");
 };
+
+
+// generate expectedSignature for razorpay payment verification:-
+export const generateExpectedSignature = (orderId, paymentId) => {
+  const body = `${orderId}|${paymentId}`;
+  return crypto
+    .createHmac("sha256", process.env.RAZORPAY_KEY_SECRET)
+    .update(body)
+    .digest("hex");
+};
+

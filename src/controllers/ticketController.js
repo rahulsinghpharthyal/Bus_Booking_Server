@@ -27,7 +27,6 @@ const getUserTickets = asyncHandler(async (req, res, next) => {
 const bookTicket = asyncHandler(async (req, res, next) => {
   const { busId, date, seatNumbers } = req.body;
   const userId = req.userId;
-  console.log(req.userId)
 
   if (!userId) {
     throw new ApiError(401, "Unauthorized access");

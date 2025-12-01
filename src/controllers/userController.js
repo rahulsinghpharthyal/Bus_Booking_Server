@@ -1,5 +1,4 @@
 import { asyncHandler } from "../middlewares/asyncHandler.js";
-import logger from "../config/logger.js";
 import { createOrUpdateGoogleUser } from "../services/user.service.js";
 import { generateUserTokens, rotateRefreshToken } from "../services/auth.service.js";
 import { verifyGoogleToken } from "../services/google.service.js";
@@ -32,7 +31,6 @@ const loginOrSignup = asyncHandler(async (req, res, next) => {
     picture,
   });
 
-  console.log('this is  user', user)
 
   // GENERATE TOKENS AND STORE HASHED TOKEN IN DB
   const { accessToken, refreshToken } = await generateUserTokens(

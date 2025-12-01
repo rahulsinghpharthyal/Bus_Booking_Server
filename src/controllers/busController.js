@@ -52,7 +52,6 @@ const searchBuses = asyncHandler(async (req, res, next) => {
   );
 
   const buses = await searchBusService(from, to, startOfDay, endOfDay);
-  console.log('this is buses', buses)
   if (!buses || buses.length === 0) {
     throw new ApiError(404, "No buses found for the selected route and date");
   }

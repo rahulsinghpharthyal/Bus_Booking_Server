@@ -12,7 +12,6 @@ const isAuthenticate = (req, res, next) => {
     const token = authHeader.split(" ")[1];
     // Synchronous verify — safe inside try/catch
     const decoded = jwt.verify(token, process.env.ACCESS_TOKEN_SECRET);
-    console.log('this is decoded', decoded)
     req.userId = decoded.userId;
     next();
   } catch (error) {
