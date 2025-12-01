@@ -28,8 +28,26 @@ export async function verifyPaymentService({razorpay_order_id,razorpay_payment_i
 
     const payment = await Payment.findOneAndUpdate(
         {orderId: razorpay_order_id},
-        {paymentId: razorpay_payment_id, signature: razorpay_signature, status: "SUCCESS"},
+        {paymentId: razorpay_payment_id, signature: razorpay_signature, status: "PENDING"},
         
     );
     return payment;
 }
+
+
+// 3️⃣ Mark payment as PAID
+export async function markPaymentSuccessService (payment) {
+    return await Payment.findOneAndUpdate(
+        { paymentId: payment.id },
+        { status: "SUCCESS" },
+        { new: true }
+    );
+};
+// 3️⃣ Mark payment as P
+export async function markPaymentFailedService (payment) {
+    return await Payment.findOneAndUpdate(
+        { paymentId: payment.id },
+        { status: "FAILED" },
+        { new: true }
+    );
+};

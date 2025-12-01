@@ -2,6 +2,7 @@ import { asyncHandler } from "../middlewares/asyncHandler.js";
 import { createOrUpdateGoogleUser } from "../services/user.service.js";
 import { generateUserTokens, rotateRefreshToken } from "../services/auth.service.js";
 import { verifyGoogleToken } from "../services/google.service.js";
+import ApiError from "../utils/ApiError.js";
 
 const loginOrSignup = asyncHandler(async (req, res, next) => {
   const { id_token } = req.body;

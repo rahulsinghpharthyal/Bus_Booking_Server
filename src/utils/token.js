@@ -36,3 +36,17 @@ export const generateExpectedSignature = (orderId, paymentId) => {
     .digest("hex");
 };
 
+
+const WEBHOOK_SECRET = process.env.RAZORPAY_WEBHOOK_SECRET;
+
+// 1️⃣ Validate webhook signature
+export const verifyWebhookSignature = (rawBody, signature) => {
+  const expected = crypto
+    .createHmac("sha256", WEBHOOK_SECRET)
+    .update(rawBody)
+    .digest("hex");
+
+  return expected === signature;
+};
+
+
