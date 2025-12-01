@@ -10,7 +10,7 @@ export const initSocket = (httpServer) => {
     },
   });
 
-  io.on("connection", (socket) => {
+   io.on("connection", (socket) => {
     console.log("Socket connected:", socket.id);
 
     // join room (client should emit 'join_order' with orderId)
