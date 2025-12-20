@@ -32,15 +32,16 @@ const verifyPayment = asyncHandler(async (req, res) => {
     razorpay_signature,
   });
 
-  try{
-    const io = getIO();
-    io.to(razorpay_order_id).emit("payment_status", {
-      status: "PENDING",
-      orderId: razorpay_order_id,
-    });
-  }catch(error){
-    logger.error("Error on socket Starting...")
-  }
+  // try{
+  //   const io = getIO();
+  //   io.to(razorpay_order_id).emit("payment_status", {
+  //     status: "PENDING",
+  //     message: "Waiting for Razorpay webhook confirmation…",
+  //     orderId: razorpay_order_id,
+  //   });
+  // }catch(error){
+  //   logger.error("Error on socket Starting...")
+  // }
 
   return res.status(200).json({
     success: true,

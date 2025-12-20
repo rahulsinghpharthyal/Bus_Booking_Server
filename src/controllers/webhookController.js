@@ -29,25 +29,27 @@ export const handleRazorpayWebhook = asyncHandler(async (req, res) => {
 
   console.log("Webhook received event:", event);
   const orderId = paymentData.order_id;
- 
+  console.log('this is event', event)
   const io = getIO();
     if (event === "payment.captured") {
         await markPaymentSuccessService(paymentData);
 
-        // 🔥 EMIT SUCCESS TO SPECIFIC USER ROOM
-        io.to(orderId).emit("payment-status", {
+        // EMIT SUCCESS TO SPECIFIC USER ROOM
+        io.to(orderId).emit("payment_status", {
+            success: true,
             status: "success",
             message: "Payment captured successfully!",
             orderId,
-            paymentId: payment.id,
+            paymentId: paymentData.id,
         });
     }
 
     if (event === "payment.failed") {
-      await markPaymentFailedService(payment);
+      await markPaymentFailedService(paymentData);
 
-      // 🔥 EMIT FAILURE TO SPECIFIC USER ROOM
-      io.to(orderId).emit("payment-status", {
+      // EMIT FAILURE TO SPECIFIC USER ROOM
+      io.to(orderId).emit("payment_status", {
+        success: false,
         status: "failed",
         message: "Payment failed",
         orderId,

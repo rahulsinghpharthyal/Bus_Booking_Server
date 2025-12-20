@@ -13,8 +13,9 @@ export const initSocket = (httpServer) => {
    io.on("connection", (socket) => {
     console.log("Socket connected:", socket.id);
 
-    // join room (client should emit 'join_order' with orderId)
+    // join room (client should emit 'join_payement_room' with orderId)
     socket.on("join_payment_room", (orderId) => {
+      console.log('this is orderId', orderId)
       if (orderId) {
         socket.join(orderId);
         console.log(`Socket ${socket.id} joined room ${orderId}`);
